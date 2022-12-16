@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+div.form {
+  border: 2px solid;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+div.field {
+  margin: 10px;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: Arial;
+  color: red;
+  text-decoration: underline;
+}
+
+#last {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+button {
+  color: lightgreen;
+  background-color: darkgreen;
+  margin-top: 10px;
+  position: relative;
+  left: 150px;
+}
